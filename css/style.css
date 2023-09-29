@@ -1,0 +1,21 @@
+:root{
+    --header-color: #2C3E4F;
+    --section-color:#19BC9B;
+    --footer-color: #3B536D;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.my-bg-header{
+    background-color: var(--header-color);
+}
+
+.my-bg-section{
+    background-color: var(--section-color);
+}
+
+.my-bg-footer{
+    background-color: var(--footer-color);
+}
