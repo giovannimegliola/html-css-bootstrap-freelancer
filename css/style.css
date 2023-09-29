@@ -19,3 +19,7 @@ body{
 .my-bg-footer{
     background-color: var(--footer-color);
 }
+
+img{
+    width: 100%;
+}
