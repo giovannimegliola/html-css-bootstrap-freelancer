@@ -20,11 +20,39 @@ body{
     background-color: var(--footer-color);
 }
 
-img{
-    width: 100%;
-   
+#hero h1{
+    padding: 15px 0;
 }
 
-.avatar{
-    width: 20%;
+#hero img{
+    width: 250px;
 }
+
+#portfolio img{
+    width: 100%;
+    display: block;   
+}
+
+.my-img-container{
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.my-img-container:hover:after{
+    content: '+';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #19bc9b86;
+    color: white;
+    font-size: 6em;
+    font-weight: bold;
+}
+
