@@ -72,3 +72,12 @@ section.bg-white .my-star::before{
     font-weight: bold;
 }
 
+.social-icon{
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline;
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    
+}
